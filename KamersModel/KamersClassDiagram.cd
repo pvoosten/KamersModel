@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="KamersModel.Doorgang">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Doorgang.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KamersModel.Level">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <AssociationLine Name="Plaatsen" Type="KamersModel.Plaats">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.318" Y="0.07" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Startplaats" Type="KamersModel.Plaats">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.485" Y="-0.961" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAACAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Level.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Startplaats" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Plaatsen" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="KamersModel.OpdrachtInQueeste">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>OpdrachtInQueeste.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KamersModel.Plaats">
+    <Position X="4.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAEAAAACAAEAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Plaats.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Speler" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Voorwerpen" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="KamersModel.Queeste">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Queeste.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Opdrachten" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="KamersModel.Speler">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAABAAAgEAAAABAQAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Speler.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="HuidigePlaats" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Rugzak" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="KamersModel.Voorwerp">
+    <Position X="0.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Voorwerp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
